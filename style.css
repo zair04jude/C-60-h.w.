@@ -1,0 +1,70 @@
+body{
+  background-color: green;
+  text-align: center;
+}
+h1{
+  Color: red;
+ 
+}
+h2{
+  Color: green;
+}
+  
+ 
+  
+
+h3{ 
+  color: red;
+}lac
+h4{
+  color: green;
+}
+h5{
+  color: red;
+}
+ 
+p{
+  Color: black;
+  border-style: solid;
+  border-color: black;
+}
+
+#welcome{
+    position: absolute;
+    height: 800px;
+    background: linear-gradient(pink 0%,blue 100%);
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    display:table;
+    color: aliceblue;
+    height: 100%;
+    width: 100%;
+    padding-top:20px;   
+    
+}
+
+.menu{
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.link{
+    float: left;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+
+}
+
+img{
+    transition: transform .2s;
+}
+img:hover{
+    transform: scale(0.9);
+}
